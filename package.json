@@ -3,6 +3,9 @@
   "version": "3.0.0",
   "description": "Collect and return your videotapes that are scattered about the woods",
   "main": "src/index.js",
+  "engines": {
+    "node": "12.18.0"
+  }
   "scripts": {
     "build": "NODE_ENV=production webpack -p --devtool=source-map",
     "deploy": "./bin/deploy",
